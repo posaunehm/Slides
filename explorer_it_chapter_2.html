@@ -26,16 +26,17 @@
     <h3 class="date">2014/02/23</h3>
 </section>
 
-<section class="slide level2">
-
-<h3 id="charter">Charter ?</h3>
+<section id="charter" class="slide level3">
+<h1>Charter ?</h1>
 <ul>
 <li>とりあえず、「チャータ」にしておく
 <ul>
 <li>「計画」とかが適切な訳語っぽいけれども、テスト計画とごっちゃになるので。。。</li>
 </ul></li>
 </ul>
-<h3 id="何を計画するのか">何を計画するのか？</h3>
+</section>
+<section id="何を計画するのか" class="slide level3">
+<h1>何を計画するのか？</h1>
 <p>土地探索のアナロジーで</p>
 <ul>
 <li>ターゲット：どこを探索するのか</li>
@@ -49,59 +50,62 @@
 </ul></li>
 </ul>
 </section>
-<section id="チャータの例" class="slide level2">
-<h1>チャータの例</h1>
-<h3 id="例-セキュリティ">例①: セキュリティ</h3>
+<section><section id="チャータの例" class="titleslide slide level2"><h1>チャータの例</h1></section><section id="例-セキュリティ" class="slide level3">
+<h1>例①: セキュリティ</h1>
 <ul>
 <li>(ターゲット)プロファイル編集を、</li>
 <li>(リソース)インジェクション攻撃し、</li>
 <li>(情報)セキュリティ耐性を明らかにする</li>
 </ul>
-<h3 id="例-パターンを発見">例②: パターンを発見</h3>
+</section><section id="例-パターンを発見" class="slide level3">
+<h1>例②: パターンを発見</h1>
 <ul>
 <li>(ターゲット)プロファイル編集を、</li>
 <li>(リソース)様々なログイン手段を試し、</li>
 <li>(情報)びっくりするような現象を発見する</li>
 </ul>
-</section>
-<section id="良いチャータ悪いチャータ" class="slide level2">
-<h1>良いチャータ、悪いチャータ</h1>
-<h3 id="悪い例細かすぎる">悪い例①：細かすぎる</h3>
+</section></section>
+<section><section id="良いチャータ悪いチャータ" class="titleslide slide level2"><h1>良いチャータ、悪いチャータ</h1></section><section id="悪い例細かすぎる" class="slide level3">
+<h1>悪い例①：細かすぎる</h1>
 <ul>
 <li>姓の入力値を</li>
 <li>&quot;O'Monkey&quot;として</li>
 <li>アポストロフィ付きの入力値が受け入れられるか試す</li>
 </ul>
-<h3 id="悪い例荒すぎる">悪い例②：荒すぎる</h3>
+</section><section id="悪い例荒すぎる" class="slide level3">
+<h1>悪い例②：荒すぎる</h1>
 <ul>
 <li>システムのセキュリティを</li>
 <li>ハッキングツールでもって</li>
 <li>全てのセキュリティホールを見つける</li>
 </ul>
-<h3 id="良い例">良い例①</h3>
+</section><section id="良い例" class="slide level3">
+<h1>良い例①</h1>
 <ul>
 <li>入力フィールドを</li>
 <li>XSSやSQLインジェクション攻撃でもって攻撃し</li>
 <li>セキュリティ耐性を確認する</li>
 </ul>
-<h3 id="良い例-1">良い例②</h3>
+</section><section id="良い例-1" class="slide level3">
+<h1>良い例②</h1>
 <ul>
 <li>ログインが必要となるページに対し</li>
 <li>なりすまし用のURL・POSTパラメータを試し</li>
 <li>ユーザが許可されていないコンテンツにアクセス出来ないか確認する</li>
 </ul>
-<h3 id="良いチャータ">良いチャータ</h3>
+</section><section id="良いチャータ" class="slide level3">
+<h1>良いチャータ</h1>
 <p>良いチャータは<em>カンペ</em>みたいなものだ。入出力を正確に伝えずとも、何を見るべきかを思い出させてくれる。</p>
-</section>
-<section id="チャータを作成する" class="slide level2">
-<h1>チャータを作成する</h1>
-<h3 id="要求ディスカッション">要求ディスカッション</h3>
+</section></section>
+<section><section id="チャータを作成する" class="titleslide slide level2"><h1>チャータを作成する</h1></section><section id="要求ディスカッション" class="slide level3">
+<h1>要求ディスカッション</h1>
 <ul>
 <li>「ちゃんと実装してるはずだよー」</li>
 <li>「おっとそのパターンはどうだっけ・・・？」</li>
 </ul>
 <p>みたいな怪しげな会話から、確認すべき事項をチャータにする。</p>
-<h3 id="暗黙の期待">暗黙の期待</h3>
+</section><section id="暗黙の期待" class="slide level3">
+<h1>暗黙の期待</h1>
 <ul>
 <li>当たり前すぎて表には出づらいもの
 <ul>
@@ -110,7 +114,8 @@
 </ul></li>
 <li>探索すべき暗黙の期待はチャータにしておくべき</li>
 </ul>
-<h3 id="目的に沿ったチャータ">目的に沿ったチャータ</h3>
+</section><section id="目的に沿ったチャータ" class="slide level3">
+<h1>目的に沿ったチャータ</h1>
 <ul>
 <li>誰もが興味のないことを発見しても仕方がない
 <ul>
@@ -119,11 +124,13 @@
 <li>どんなに無茶苦茶な方法であっても、状態が不正になる可能性のある経路は全て潰す？</li>
 </ul></li>
 </ul>
-<h3 id="ステークホルダへの質問">ステークホルダへの質問</h3>
+</section><section id="ステークホルダへの質問" class="slide level3">
+<h1>ステークホルダへの質問</h1>
 <ul>
 <li>何を見るべきかをはっきりさせるためにも、ステークホルダに質問しておくべき</li>
 </ul>
-<h3 id="すでにある成果物">すでにある成果物</h3>
+</section><section id="すでにある成果物" class="slide level3">
+<h1>すでにある成果物</h1>
 <ul>
 <li>以下のようなソースコードは危険</li>
 </ul>
@@ -140,18 +147,19 @@
 <li>コールセンターの質問リスト</li>
 </ul></li>
 </ul>
-<h3 id="新しい気付きと発見">新しい気付きと発見</h3>
+</section><section id="新しい気付きと発見" class="slide level3">
+<h1>新しい気付きと発見</h1>
 <ul>
 <li>探索的テストやってる最中の気付き・不安などもチャータになる</li>
 </ul>
-</section>
-<section id="悪夢の見出しゲーム" class="slide level2">
-<h1>「悪夢の見出しゲーム」</h1>
-<h3 id="ステージ設定">ステージ設定</h3>
+</section></section>
+<section><section id="悪夢の見出しゲーム" class="titleslide slide level2"><h1>「悪夢の見出しゲーム」</h1></section><section id="ステージ設定" class="slide level3">
+<h1>ステージ設定</h1>
 <ul>
 <li>ゆったりとした週末、目に飛び込んできた背筋も凍るような見出しとは？？</li>
 </ul>
-<h3 id="ヘッドラインを集める">ヘッドラインを集める</h3>
+</section><section id="ヘッドラインを集める" class="slide level3">
+<h1>ヘッドラインを集める</h1>
 <ul>
 <li>見るのも恐ろしい「見出し」を想像してみる
 <ul>
@@ -169,20 +177,23 @@
 </ul></li>
 </ul></li>
 </ul>
-<h3 id="リスクの収集">リスクの収集</h3>
+</section><section id="リスクの収集" class="slide level3">
+<h1>リスクの収集</h1>
 <ul>
 <li>その中から取り組むべきリスクを洗い出す</li>
 </ul>
-<h3 id="ブレインストーミング">ブレインストーミング</h3>
+</section><section id="ブレインストーミング" class="slide level3">
+<h1>ブレインストーミング</h1>
 <ul>
 <li>リスクの原因となりうるものを洗い出す</li>
 </ul>
-<h3 id="チャータ作成">チャータ作成</h3>
+</section><section id="チャータ作成" class="slide level3">
+<h1>チャータ作成</h1>
 <ul>
 <li>原因をチャータに変換する</li>
 </ul>
-</section>
-<section id="チャータを計画する" class="slide level2">
+</section></section>
+<section><section id="チャータを計画する" class="titleslide slide level2"><h1>チャータを計画する</h1></section><section id="チャータを計画する-1" class="slide level3">
 <h1>チャータを計画する</h1>
 <ul>
 <li>チャータ作成は伝統的な「テスト計画」とは異なる
@@ -192,7 +203,7 @@
 <li>前もって重要なチャータは作っておいてもいいが、常に見直しは必要</li>
 </ul></li>
 </ul>
-</section>
+</section></section>
     </div>
   </div>
 
